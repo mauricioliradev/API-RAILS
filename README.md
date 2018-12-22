@@ -1,24 +1,18 @@
-# README
+# ----- Necessário para rodar o projeto ->
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# ruby '2.5.0'
+# rails '5.2.0'
 
-Things you may want to cover:
+# rails db:create && db:migrate
 
-* Ruby version
+# rails s
 
-* System dependencies
+# ----- Para rodar os testes ->
 
-* Configuration
+# rake spec
 
-* Database creation
+# ----- Testar o cadastro ->
 
-* Database initialization
+# Baixar o projeto para consumir a api em: https://github.com/mauricioliradev/PitziFront
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Abri o arquivo index.html no browser
