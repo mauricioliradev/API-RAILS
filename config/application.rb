@@ -41,5 +41,9 @@ module PitziApi
     end
 
     config.middleware.use Rack::Attack
+    # Rspec configuration
+    config.generators do |g|
+      g.test_framework :rspec
+    end
   end
 end
